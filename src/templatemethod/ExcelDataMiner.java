@@ -24,6 +24,7 @@ public class ExcelDataMiner extends DataMiner{
         System.out.println("Открыт файл в формате Excel");
     }
 
+    @Override
     public void hookMethod() {
         System.out.println("Сбор данных по Excel формулам для анализа...");
         System.out.println("Сбор данных завершён");
